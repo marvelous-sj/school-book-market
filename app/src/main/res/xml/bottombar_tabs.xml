@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        id="@+id/book_market"
+        icon="@mipmap/ic_launcher"
+        title="二手书场"
+        barColorWhenSelected="#5D4037" />
+
+    <tab
+        id="@+id/my_info"
+        icon="@mipmap/ic_my"
+        title="我的信息"
+        barColorWhenSelected="#FF5252" />
+</tabs>

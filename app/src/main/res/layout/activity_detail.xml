@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/book_introduction"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/book_name"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/ic_launcher" />
+    <com.rey.material.widget.Button
+    android:id="@+id/goback"
+    style="@style/Material.Drawable.Ripple.Wave.Light"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_10_160"
+    android:layout_marginLeft="@dimen/width_22_160"
+    android:layout_marginRight="@dimen/width_22_160"
+    android:layout_below="@+id/book_introduction"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/common_btn_bg"
+    android:text="返  回"
+    android:textColor="@color/white"
+    android:textSize="14sp"
+    app:rd_enable="true"/>
+</RelativeLayout>
